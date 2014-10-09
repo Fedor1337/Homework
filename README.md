@@ -11,4 +11,6 @@ public class Main {
         System.out.println(result + "" + g);
     }
 }
+
+
 результат0
