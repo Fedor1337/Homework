@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Арифметические операции с переменными");
+        Scanner ac = new Scanner(System.in);
+        int a = ac.nextInt();
+        int b = ac.nextInt();
+        int c = ac.nextInt();
+        double d = ac.nextDouble();
+        System.out.println(a + b - c * d / a * a - b * d);
+    }
+}
