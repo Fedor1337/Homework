@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Решение квадратных уравнений");
+        Scanner ac = new Scanner(System.in);
+        int a = ac.nextInt();
+        int b = ac.nextInt();
+        int c = ac.nextInt();
+        double Diskriminate = (b * b - 4 * a * c);
+        if (Diskriminate == 0) ;
+        {
+            double x = (-b / 2 * a);
+            System.out.println("Уравнение имеет 2 одинаковых корня");
+        }
+        if (Diskriminate < 0) {
+            System.out.println("Уравнение не имеет корней");
+        }
+        if (Diskriminate > 0) {
+            double x1 = (-b + Math.sqrt(Diskriminate) / 2 * a);
+            double x2 = (-b - Math.sqrt(Diskriminate) / 2 * a);
+            System.out.println(x1 + " " + x2);
+        }
+    }
+}
+
