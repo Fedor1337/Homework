@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.Scanner;
+public class homework {
+    public static void main (String [] args) {
+        Scanner ac = new Scanner(System.in);
+        double a = ac.nextDouble();
+        double b = ac.nextDouble();
+        if (a < b) {
+           System.out.println(" " +a);
+        }
+        else {
+          System.out.println(" " +b);
+        }
+    }
+}
