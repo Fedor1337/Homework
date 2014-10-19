@@ -1,0 +1,6 @@
+import java.util.*;
+public class Method {
+    public void MyMethod (String MyName,int MyAge,String MyCity){
+        System.out.println(MyName +" "+ MyAge +" " +MyCity);
+    }
+}
