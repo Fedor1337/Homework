@@ -1,0 +1,23 @@
+public class Method2 {
+
+    public int CoolMethod (int a, int b) {
+
+        if (a > b)
+
+            return b;
+
+        else
+
+            return a;
+
+
+
+    }
+
+    public int CoolMethod2(int a, int b, int c, int d) {
+
+        return CoolMethod(CoolMethod(a, b), CoolMethod(c, d));
+
+
+    }
+}
