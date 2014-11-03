@@ -45,7 +45,7 @@ class lol2 {
         int d = (int) (Math.random() *1000);
         double MethodRandom = (Math.random()*a*a*a*b*b/c*c*b*b/10);
         if (MethodRandom == 0){
-        a++;
+        a+=100;
         }
         if (MethodRandom >0){
         b++;
