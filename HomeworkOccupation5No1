@@ -50,7 +50,7 @@ class lol2 {
         if (MethodRandom >0){
         b++;
         }
-        frame.setBounds(a, b, c, 500);
+        frame.setBounds(a, b, c, d);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         final JTextArea text = new JTextArea();
 
